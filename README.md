@@ -1,2 +1,2 @@
 # project_landing_page
-This is a project from The Odin Project to practice our css skills.
+This is a project from The Odin Project to practice flexbox.
