@@ -1,0 +1,177 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+/* Header portion*/
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0;
+}
+
+.header span {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/*Portion below the header*/
+
+.top {
+    background-color: #1f2937;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #f9faf8;
+    align-items: flex-start;
+    width: 21vw;
+    height: 11vw;
+    gap:10px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    width:100px;
+    height:50px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #3882f6;
+}
+
+.title span {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width:67.4vw;
+    
+}
+
+.top img {
+   width:33vw;
+   height:11vw;
+}
+
+/*Middle portion*/
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    padding: 70px 0;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.illustrations {
+    display: flex;
+    gap:40px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height: auto;
+    gap:10px;
+
+}
+
+.images img{
+    width:200px;
+    height: 200px;
+    border: 4px solid rgb(84, 172, 255);
+    border-radius:15px;
+}
+
+/*Bottom Portion*/
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.bottom-stuff {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding:50px 0;
+   
+}
+
+.author {
+    align-self: center;
+    width: 800px;
+    text-align: right;
+    font-weight: bold;
+
+}
+
+.quote {
+    width: 800px;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.space {
+    height:40vh;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+ul {
+    display:flex;
+    gap:20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
